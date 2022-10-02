@@ -148,6 +148,8 @@ Por algún motivo que ignoro, la instalación no usa todo el espacio disponible,
      cd ceiot_base
      # git checkout (preguntar al docente)
      # agregar al final de README.md "tocado por XXXXX"
+     # para ello se debe utilizar el editor "visual" mediante el comando vi nombredelarchivo
+     # guia de comandor del editor vi https://docs.bluehosting.cl/tutoriales/servidores/guia-practica-de-los-editores-de-texto-nano-y-vi-en-linux.html
      git status ; # para ver que archivos cambiaron
      git diff   ; # para ver los cambios
      git add README.md
@@ -469,4 +471,6 @@ Sería conveniente quitar de main.c cualquier elemento variable para no afectar 
 ### DHT11 explícito &#10004;
 
 Renombrar esp32 a esp32-dht11 
+Editado por Lucas Giroldi
+
 
